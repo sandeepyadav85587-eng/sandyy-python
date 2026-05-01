@@ -1,0 +1,6 @@
+a="chinnas is DOING Engg"
+a=a.upper()
+c=a.lower()
+d=a.swapcase()
+e=a.capitalize()
+print(e)
