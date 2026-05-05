@@ -1,0 +1,39 @@
+country="india"
+class ace:
+    col="ace coll"
+    def give_detial(self,a,b,c,d):
+        self.total=a+b+c
+        self.name=d
+        
+    def display(self):    
+        print("1name",self.name)
+        print("2 mark",self.total)
+        print("3 col",ace.col)
+        print("4 country",country)
+
+class vbrit:
+    col="ace coll"
+    def set_dim(self,a,b,c,d):
+        self.total=a+b+c
+        self.name=d
+        
+    def show(self):    
+        print("1name",self.name)
+        print("2 mark",self.total)
+        print("3 col",vbrit.col)
+        print("4 country",country)
+
+a=ace()
+a2=ace()
+b=vbrit()
+b2=vbrit()
+a.give_detial(45,32,61,"saikumar")
+a2.give_detial(22,32,25,"sandy")
+b.set_dim(32,45,47,"chinna")
+b2.set_dim(23,54,61,"chintu")
+a.display()
+a2.display()
+b.show()
+b2.show()
+    
+    
